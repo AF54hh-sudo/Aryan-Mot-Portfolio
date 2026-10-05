@@ -1,0 +1,71 @@
+/* Living technical studies, integrated into the white editorial canvas. */
+.ai-study.hologram-study{height:320px;max-width:420px;margin-top:24px;background:transparent;border:0;box-shadow:none;overflow:hidden}
+.ai-study.hologram-study::after{display:none}
+@media(max-width:760px){.ai-study.hologram-study{width:100%;max-width:none;height:300px}}
+.ai-study{margin:0;position:relative;min-width:0;overflow:hidden;border:1px solid #dce3f2;border-radius:18px;background:radial-gradient(ellipse at 85% 5%,#e8ddff80,transparent 62%),linear-gradient(135deg,#fff,#f0faff);box-shadow:0 12px 35px #5166950b;isolation:isolate}
+
+.ai-study canvas{display:block;width:100%;height:100%}
+.ai-study figcaption{position:absolute;inset:16px 18px auto;display:flex;align-items:center;justify-content:space-between;gap:8px;color:#25354d;font:500 12px/1.4 'Space Grotesk',sans-serif;letter-spacing:.5px;z-index:2}
+.ai-study figcaption small{font:12px 'DM Sans',sans-serif;color:#637188;letter-spacing:0}
+.ai-study .study-foot{position:absolute;bottom:13px;left:18px;right:18px;display:flex;justify-content:space-between;gap:8px;font:12px 'Space Grotesk',sans-serif;color:#53637b}
+.study-mark{width:20px;height:5px;display:inline-block;background:linear-gradient(90deg,#8b65e0,#46badd,#57ccac);border-radius:3px;margin-right:7px;vertical-align:middle}
+.hero-flow{height:114px;max-width:470px;margin-top:25px;background:linear-gradient(100deg,#f8f6ffbb,#eefcfcaa);border-radius:12px}
+.hero-flow figcaption{top:12px;left:15px}
+.hero-flow .study-foot{bottom:10px;left:15px}
+.hero-foot{display:none}
+.training-study{height:238px;flex:1;max-width:365px;min-width:230px;align-self:center}
+.section-title.scene-heading{gap:24px}
+.section-title.scene-heading>div:first-child{flex:1}
+.section-title.scene-heading .section-scene{width:280px}
+.analysis-study{height:250px;max-width:420px;margin-top:24px;background:linear-gradient(155deg,#fbfdff,#eff8ff 55%,#f8f0ff)}
+.analysis-study figcaption{top:15px}
+.analysis-study .study-foot{bottom:12px}
+.neural-study{height:258px;flex:1;max-width:380px;min-width:230px;border:0;box-shadow:none;background:radial-gradient(ellipse,#e7e4ff8a,transparent 70%)}
+.contact-links .signal-study{height:120px;max-width:440px;margin-top:28px;background:#ffffff70}
+.signal-study figcaption{top:12px}
+.ai-study::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;box-shadow:inset 0 0 25px #ffffff50}
+.analysis-study::after{box-shadow:inset 0 -28px 45px #dcecfb44}
+
+@media(min-width:1151px){#work .section-title.scene-heading>div:first-child{max-width:38%}
+#experience .section-title.scene-heading>div:first-child{max-width:40%}
+.about{align-items:start}
+.about .peek-window{max-width:420px}
+.about{gap:65px}
+}
+
+@media(max-width:1150px) and (min-width:761px){.section-title.scene-heading{flex-wrap:wrap}
+.section-title.scene-heading>div:first-child{max-width:calc(100% - 310px);flex-basis:50%}
+.training-study,.neural-study{order:3;max-width:none;flex-basis:100%;height:220px;margin:5px 0 15px}
+.section-title.scene-heading .section-scene{margin-left:auto}
+.training-study{height:240px}
+}
+
+@media(max-width:760px){.section-title.scene-heading{grid-template-columns:minmax(0,1fr);gap:15px}
+.section-title.scene-heading>div:first-child{max-width:100%}
+.training-study,.neural-study{width:100%;min-width:0;max-width:none;height:235px;order:3}
+.section-title.scene-heading .section-scene{order:2}
+.analysis-study{max-width:none;width:100%;height:245px}
+.hero-flow{height:110px;margin-top:22px}
+.neural-study{height:240px}
+.contact-links{width:100%;min-width:0}
+.signal-study{width:100%}
+.ai-study figcaption,.ai-study .study-foot{font-size:12px}
+.ai-study figcaption small{font-size:12px}
+.about .peek-window{margin-bottom:0}
+.section-title{margin-bottom:28px}
+}
+
+
+/* The same small studio mascot peeks over the signal panel and tends the network. */
+.hero-flow{height:146px}
+.hero-flow figcaption small{display:none}
+
+@media(max-width:760px){.hero-flow{height:140px}
+.neural-study figcaption small{display:none}
+}
+
+
+.signal-study figcaption small{display:none}
+.analysis-study .study-foot{font-size:11px}
+.hero-flow figcaption{right:105px}
+.ai-study canvas{touch-action:pan-y}

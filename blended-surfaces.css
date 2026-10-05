@@ -1,0 +1,50 @@
+/* Surfaces embossed into the shared white canvas. */
+:root{--surface-edge:transparent;--surface-shadow:0 0 18px #34496426,0 5px 12px #3449641f,inset 0 0 2px #ffffffd9}
+.project,.project.featured,.skill-detail,.timeline article,.timeline article:nth-child(2),.education,.contact,.peek-window,.tech-strip,.ai-study,.capability{background:transparent;border:1px solid var(--surface-edge);box-shadow:var(--surface-shadow);backdrop-filter:none}
+.project:hover,.timeline article:hover,.capability:hover{background:transparent;border-color:transparent;box-shadow:0 0 22px #34496430,0 6px 14px #34496424,inset 0 0 2px #fff;transform:none}
+.evidence,.mini-visual,.resume-visual,.walmart-visual,.window-top,.window-bottom,.semantic-visual>div{background:transparent;box-shadow:none;border-color:var(--surface-edge)}
+.about:before,#work:before,.contact:after{background:none;border:0}
+.working-scene:before,.working-scene:after{display:none!important}
+.working-scene .working-portrait.scene-art{width:116%;max-width:720px;flex-shrink:0;margin-top:0}
+.hero-scene.working-scene{min-height:580px}
+.working-portrait img{filter:drop-shadow(5px 14px 15px #384a6914);mask-image:none}
+.hero-flow,.contact-links .signal-study,.analysis-study,.neural-study{background:transparent;box-shadow:var(--surface-shadow);border:1px solid var(--surface-edge)}
+.ai-study.hologram-study,.project-grid>.training-study{background:transparent;border:0;box-shadow:none}
+.ai-study:after{box-shadow:none}
+.action-popup{background:#f8fbf9f2;border:1px solid var(--surface-edge)!important;box-shadow:var(--surface-shadow);backdrop-filter:blur(12px)}
+.tags span,.tags span:nth-child(2n),.tags span:nth-child(3n),.model-pipeline span,.contact-socials a,.contact-socials a:nth-child(2),.contact-socials a:nth-child(3),.location-chip,.button.secondary{background:transparent;border-color:var(--surface-edge);box-shadow:2px 2px 6px #5268870c,inset 1px 1px 0 #fff}
+.flow button,.skill-picks button,.skill-filters button{background:transparent;border-color:var(--surface-edge);box-shadow:2px 2px 6px #5268870c,inset 1px 1px 0 #fff}
+.flow button[aria-pressed=true],.skill-picks button[aria-pressed=true]{background:#c5e8fa22;border-color:#939fd288;box-shadow:inset 2px 2px 6px #7886a216,inset -2px -2px 5px #fff}
+.skill-filters button[aria-pressed=true]{background:#e4eef566;color:#253951;border-color:#a6b6cd99;box-shadow:inset 2px 2px 5px #6f8ca51a,inset -2px -2px 5px #fff}
+.skill-picks button:hover,.flow button:hover,.contact-socials a:hover{background:#edf6ff33;border-color:#9bb3cb99}
+.tech-strip{gap:12px 22px;flex-wrap:wrap}.tech-strip>span:not(.eyebrow){white-space:nowrap}
+.project-copy{position:relative}
+.project-repository{position:absolute;top:22px;right:22px;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;color:#33445d;background:#ffffff35;box-shadow:3px 4px 9px #34496425,-3px -3px 9px #fff;transition:color .2s,box-shadow .2s}
+.project-repository svg{width:23px;height:23px;fill:currentColor}
+.project-repository:hover{color:#6857a7;box-shadow:inset 2px 2px 5px #34496420,inset -2px -2px 5px #fff}
+.project-repository:focus-visible{outline:3px solid #8b78d6;outline-offset:4px}
+.project-number{padding-right:48px}
+.evidence,.mini-visual,.resume-visual,.walmart-visual,.window-top,.window-bottom,.skill-evidence,.stats,.layer-insight{border-color:transparent}
+.flow button,.skill-picks button,.skill-filters button,.tags span,.contact-socials a,.location-chip{border-color:transparent;box-shadow:3px 4px 8px #34496419,-3px -3px 8px #ffffffb3}
+.flow button[aria-pressed=true],.skill-picks button[aria-pressed=true],.skill-filters button[aria-pressed=true]{border-color:transparent;box-shadow:inset 3px 3px 6px #34496423,inset -3px -3px 6px #fff}
+.skill-picks button:hover,.flow button:hover,.contact-socials a:hover{border-color:transparent}
+@media(max-width:760px){.project-repository{top:17px;right:17px}}
+/* Artwork sits directly on the canvas with a soft contact shadow beneath it. */
+.ai-study,.hero-flow,.analysis-study,.neural-study,.contact-links .signal-study,.peek-window,.contact{background:transparent;border:0;box-shadow:none;backdrop-filter:none;border-radius:0}
+.ai-study:after,.section-scene:before,.contact-scene:before,.working-portrait:before{display:none!important}
+.peek-window .window-top{display:none}
+.peek-window .window-bottom{background:transparent;border:0;padding-inline:0;text-align:center}
+.peek-viewport{overflow:visible;height:320px}
+.peek-viewport .scene-art{overflow:visible;display:flex;align-items:center;justify-content:center}
+.peek-viewport .working-character{width:auto;height:100%;max-width:100%;object-fit:contain}
+.working-character,.working-portrait img{filter:none;position:relative;z-index:1}
+.scene-art:after{content:'';position:absolute;left:15%;right:15%;bottom:1%;height:13px;pointer-events:none;border-radius:50%;background:radial-gradient(ellipse,#263b5747 0%,#263b5719 42%,transparent 72%);filter:blur(5px);z-index:0}
+.working-portrait.scene-art:after{left:8%;right:8%;height:22px;bottom:0;filter:blur(7px)}
+.contact-links{padding:24px;border-radius:0;box-shadow:none}
+.flow button,.skill-picks button,.skill-filters button,.tags span,.contact-socials a,.location-chip,.project-repository{box-shadow:0 0 8px #3449641c,0 2px 5px #34496412}
+.flow button[aria-pressed=true],.skill-picks button[aria-pressed=true],.skill-filters button[aria-pressed=true]{box-shadow:inset 0 0 7px #34496425}
+@media(max-width:760px){.peek-viewport{height:290px}.contact-links{padding:22px}.scene-art:after{height:10px}}
+dialog{background:#fafcfe;border:1px solid #ffffffaa;box-shadow:8px 8px 40px #354f7726,inset 1px 1px 0 #fff}
+@media(min-width:1500px){.hero-scene.working-scene{min-height:650px}}
+@media(max-width:1100px) and (min-width:761px){.working-scene .working-portrait.scene-art{width:110%}.hero-scene.working-scene{min-height:440px}}
+@media(max-width:760px){.hero-scene.working-scene{min-height:0;max-width:520px;aspect-ratio:1}.working-scene .working-portrait.scene-art{width:110%;max-width:none}.tech-strip{gap:10px 18px}.tech-strip .eyebrow{width:100%;max-width:none}}

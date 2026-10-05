@@ -1,0 +1,42 @@
+ARYAN MOT PORTFOLIO
+Complete offline edition | 5 October 2026
+
+OPEN ON WINDOWS
+1. Right-click the ZIP and choose Extract All.
+2. Open the extracted Aryan-Mot-Portfolio folder.
+3. Double-click index.html to open the portfolio in Chrome or Edge.
+   You can also double-click OPEN-PORTFOLIO.cmd.
+Keep all files together. Do not open index.html from inside the ZIP.
+
+WHAT IS INCLUDED
+The full website source, all bundled character and mascot artwork, canvas
+animations, cursor effects, interactive project case studies, 34 skill topics,
+five category boards, experience, contact details, the downloadable resume,
+and local copies of DM Sans and Space Grotesk fonts with their licenses.
+Only artwork and files used by the current final portfolio are included.
+
+OFFLINE BEHAVIOUR
+The portfolio itself needs no internet, account, installation or API key.
+GitHub, LinkedIn and Google Maps links still need internet. The email link
+opens your configured email application. Animated boards are illustrations,
+not live AI training or requests to an external service.
+If your device uses reduced motion, animation is intentionally reduced.
+The Pause motion control also pauses animations.
+
+OPTIONAL LOCAL SERVER
+If your browser restricts local files, and Python 3 is installed, run
+python -m http.server 8000 --bind 127.0.0.1
+from this folder, then open http://127.0.0.1:8000 in your browser.
+Press Ctrl+C in the terminal to stop it. Internet is not required.
+
+EDITING AND BACKUP
+index.html contains the main page. app.js contains the main case studies.
+skills.js contains the skill explanations and Walmart case study.
+ai-lab.js contains the animated boards and mascot rendering.
+CSS files control presentation. The artwork and resume are local assets.
+Editing this copy does not change the privately hosted portfolio.
+This ZIP contains portfolio content and contact details. Share it only with
+people you want to have a copy. It contains no hosting credentials.
+
+Latest edition includes enlarged hero art, surrounding content shadows,
+unframed characters and mascots with ground shadows, and project GitHub links.

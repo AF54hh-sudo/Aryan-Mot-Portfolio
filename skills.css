@@ -1,0 +1,31 @@
+.skills-intro{font-size:16px!important;margin:10px 0 20px;color:#536179}
+.skill-filters,.skill-picks{display:flex;flex-wrap:wrap;gap:8px}
+.skill-filters{margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid #dce3ee}
+.skill-filters button,.skill-picks button{font:500 14px/1.4 inherit;font-family:inherit;cursor:pointer;border:1px solid #d5deed;border-radius:999px;padding:10px 14px;color:#34435a;background:#ffffffc9;transition:background .2s,border-color .2s,box-shadow .2s}
+.skill-filters button[aria-pressed=true]{background:#293b55;color:white;border-color:#293b55}
+.skill-picks button{font-size:14px;border-radius:12px;padding:12px 15px}
+.skill-picks button[aria-pressed=true]{background:linear-gradient(120deg,#dfd5ff,#cbf2f2);border-color:#8a8bdd;color:#263044;box-shadow:0 4px 12px #6273b41c}
+.skill-picks button:hover{border-color:#7e89c9;background:#edf1ff}
+.skill-picks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-height:236px;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-width:thin;scrollbar-color:#8c8ed0 #eef2fa;padding:4px 10px 8px 4px;scroll-padding:6px}
+.skill-picks button{min-width:0;text-align:left;line-height:1.4;padding:10px 12px}
+.skill-browser-hint{display:flex;justify-content:space-between;gap:10px;margin:0 0 10px;font-size:12px;color:#66758d}
+.skill-filters{gap:6px;margin-bottom:12px;padding-bottom:12px}
+.skill-filters button{font-size:13px;padding:8px 11px}
+.skill-filters button:focus-visible,.skill-picks button:focus-visible,#skill-project:focus-visible{outline:3px solid #7371c9;outline-offset:3px}
+.skill-detail{margin-top:20px;padding:26px;border:1px solid #d5deed;border-radius:20px;background:linear-gradient(135deg,#ffffffeb,#f1f6ffdd);box-shadow:0 14px 30px #64779a0c}
+.skill-domain{display:block;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:#6a5a9b;margin-bottom:8px}
+.skill-detail h3{font-size:27px;margin:0 0 21px;color:#203049}
+.skill-detail h4{font-size:14px;color:#293d55;margin:18px 0 7px;font-weight:600}
+.skill-detail p{font-size:16px!important;line-height:1.7;margin:0;color:#506076}
+.skill-evidence{margin-top:22px;padding-top:4px;border-top:1px solid #d8e2ed}
+#skill-project{margin-top:16px;border:0;background:none;padding:0;color:#6351ac;font:600 14px/1.5 inherit;font-family:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+#skill-project[hidden]{display:none}
+.walmart-visual{min-height:160px;padding:24px;background:linear-gradient(125deg,#e4f1ff,#ecfaf5);display:flex;flex-direction:column;gap:14px;color:#365270}
+.walmart-visual svg{width:100%;height:95px;overflow:visible}
+.walmart-visual span{font-size:12px;letter-spacing:1px}
+.project-grid>.training-study{width:100%;max-width:none;min-width:0;height:350px;align-self:center;margin:0;order:initial;background:transparent;border:0;box-shadow:none}
+.project-grid>.training-study::after{display:none}
+.ai-study.hologram-study{height:360px;max-width:none;width:100%}
+@media(min-width:761px){#work .section-title.scene-heading>div:first-child{max-width:none}#work .section-title.scene-heading .section-scene{margin-left:auto}}
+@media(max-width:760px){.project-grid>.training-study{height:285px}.ai-study.hologram-study{height:325px;margin-top:28px!important}}
+@media(max-width:760px){.skill-detail{padding:20px}.skill-picks{gap:7px}.skill-picks button{padding:10px 12px}.skill-filters button{padding:9px 11px;font-size:13px}}
